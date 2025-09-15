@@ -35,6 +35,9 @@ nav a {
     padding: 30px 20px;
 }
 
+footer {
+  background-color: bisque;
+}
 .intro img {
     max-width: 10%;
     height: auto;
