@@ -1,0 +1,124 @@
+/*Hero-sektion*/
+body {
+   margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: beige;
+    color: darkgreen;
+    text-align: center;
+}
+
+header .logo {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+/* Navigation */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 15px 0 0 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    color: darkgreen;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Intro */
+.intro {
+    padding: 30px 20px;
+}
+
+.intro img {
+    max-width: 10%;
+    height: auto;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+
+/* Produkter */
+.products {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding: 30px 20px;
+    flex-wrap: wrap;
+}
+
+.item {
+    border: 1px solid #ddd;
+    padding: 15px;
+    width: 200px;
+    background-color: white;
+    border-radius: 8px;
+}
+
+.item img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.item h3 {
+    margin: 10px 0 5px 0;
+}
+
+.item p {
+    font-size: 14px;
+}
+
+/* Kontaktformulär */
+form {
+  margin-top: 25px;
+  text-align: left;
+}
+
+form h3 {
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  font-family: inherit;
+  transition: border-color var(--transition);
+}
+
+form input:focus,
+form textarea:focus {
+  outline: none;
+  border-color: var(--secondary);
+}
+
+form button {
+  background: var(--primary);
+  color: var(--white);
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background var(--transition);
+}
+
+form button:hover {
+  background: var(--secondary);
+}
