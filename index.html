@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>Besök Umeå</title>
 </head>
 <body>
 
@@ -39,39 +39,48 @@
             <article class="item">
                 <img src="Umeå bilder/guitarr.png" alt="Guitars the Museum">
                 <h3>Guitars The Museum</h3>
-                <p>Här ryms en likadan gitarr som den Keith Richards drar igång riffet till Honky Tonk Women med. Och här hänger en sådan som Eric Clapton använde i solot i Layla. Och modellen som Jimi Hendrix tände eld på i Monterrey. Men hur i all världen har dessa och hundratals fler sällsynta och ovärderliga gitarrer från</p>
+                <p>Mitt i centrala Umeå ligger en unik kulturskatt – Guitars – The Museum. Här finns en av världens mest exklusiva samlingar av vintagegitarrer, samlade i tysthet under flera decennier. En plats som förvånar både musikälskare och museibesökare från hela världen. </p>
             </article>
 
             <article class="item">
                 <img src="Umeå bilder/umeå.png" alt="Väven">
                 <h3>Väven</h3>
-                <p>Väven är ett kulturhus med kommunala och kommersiella verksamheter under ett och samma tak. Här kan du uppleva kultur i dess bredaste bemärkelse: från musik till mat, föreläsningar till förströelse, det spontana till det planerade, privat eller i affärer.
-</p>
+                <p>Väven är ett kulturhus med kommunala och kommersiella verksamheter under ett och samma tak. Här kan du uppleva kultur i dess bredaste bemärkelse: från musik till mat, föreläsningar till förströelse, det spontana till det planerade, privat eller i affärer. </p>
             </article>
         </section>
     </main>
 
+    <aside>
+    <h2>Visste du?</h2>
+    <p>Umeå kallas ofta för "Björkarnas stad" eftersom staden har tusentals björkar planterade längs gatorna.</p>
+  </aside>
+
 <h3>Kontaktformulär</h3>
+<div class="form-container">
+    <img src="Umeå bilder/gruppbild_umea.JPG" alt="Gruppbild">
+    
+    <form action="/submit-form" method="post">
+        <div class="form-group">
+            <label for="namn">Namn:</label>
+            <input type="text" id="namn" name="namn" required>
+        </div>
 
-<form action="/submit-form" method="post">
-    <div>
-        <label for="namn">Namn:</label>
-        <input type="text" id="namn" name="namn" required>
-    </div>
+        <div class="form-group">
+            <label for="epost">E-post:</label>
+            <input type="email" id="epost" name="epost" required>
+        </div>
 
-    <div>
-        <label for="epost">E-post:</label>
-        <input type="email" id="epost" name="epost" required>
-    </div>
+        <div class="form-group">
+            <label for="meddelande">Meddelande:</label>
+            <textarea id="meddelande" name="meddelande" rows="4" required></textarea>
+        </div>
 
-    <div>
-        <label for="meddelande">Meddelande:</label>
-        <textarea id="meddelande" name="meddelande" rows="4" required></textarea>
-    </div>
+        <div>
+            <button type="submit">Skicka</button>
+        </div>
+    </form>
+</div>
 
-    <div>
-        <button type="submit">Skicka</button>
-    </div>
 </form>
 
 <footer>
